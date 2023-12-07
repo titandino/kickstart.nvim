@@ -562,11 +562,11 @@ require('mason-lspconfig').setup()
 --  If you want to override the default filetypes that your language server will attach to you can
 --  define the property 'filetypes' to the map in question.
 local servers = {
-  eslint = {}
-  neocmake = {}
-  arduino_language_server = {}
-  java_language_server = {}
-  kotlin_language_server = {}
+  eslint = {},
+  neocmake = {},
+  arduino_language_server = {},
+  java_language_server = {},
+  kotlin_language_server = {},
   clangd = {},
   gopls = {},
   pyright = {},
